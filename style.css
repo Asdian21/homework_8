@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page with emoji start */
+
+.section_2 {
+  margin-top: calc(11vw + 18.56px);
+  margin-left: calc(10.6vw - 15.8px);
+  margin-bottom: calc(11.1vw + 18.4px);
+
+  h2 {
+    display: flex;
+    width: calc(48.7vw + 145px);
+    margin-right: calc(43.1vw - 161.6px);
+    font-family: "TTHoves";
+    font-size: calc(2.7vw + 24px);
+    font-weight: 500;
+    line-height: 118%;
+  }
+
+  .wrapper1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(71vw + 61.978px);
+
+    .infoContainer1 {
+      width: calc(13.5vw + 277.45px);
+      margin-top: calc(6.1vw + 17.21px);
+      margin-right: calc(7.7vw - 29px);
+    }
+
+    .infoContainer2 {
+      width: calc(13.5vw + 277.45px);
+      margin-top: calc(5.5vw + 19.3px);
+    }
+  }
+
+  .wrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(71vw + 61.978px);
+
+    .infoContainer3 {
+      width: calc(11.5vw + 284.9px);
+      margin-top: calc(0.8vw + 37.1px);
+      margin-right: calc(9.7vw - 36.464px);
+    }
+
+    .infoContainer4 {
+      width: calc(16.5vw + 230px);
+      margin-top: calc(0.8vw + 37.1px);
+    }
+  }
+}
+
+.emojiPhoto {
+  width: calc(3.3vw + 167.57px);
+}
+
+.profession {
+  margin-top: calc(1.1vw + 5.86px);
+  font-family: "TT Hoves";
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.profDesc {
+  font-family: "TTHoves";
+  font-size: cals(1vw + 14.27px);
+  font-weight: 400;
+  line-height: 140%;
+}
+
+/* Page with emoji end */
+
+/* Achievements start */
+
+.achievements {
+  margin-top: calc(11vw + 18.56px);
+  margin-left: calc(10.6vw - 15.8px);
+
+  h2 {
+    width: calc(76.7vw + 40.431px);
+    font-family: "TT Hoves", sans-serif;
+    font-size: calc(2.7vw + 24.055px);
+    font-weight: 500;
+    line-height: 118%;
+    margin-bottom: calc(7.7vw - 9.006px);
+  }
+
+  .points {
+    width: calc(68.5vw + 71.094px);
+    margin-right: calc(20.8vw - 53.901px);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+    .achv_wrap1 {
+      display: flex;
+      flex-wrap: wrap;
+
+      .achv1 {
+        width: calc(8vw + 298.166px);
+        margin: 0 calc(9.9vw - 7.293px) calc(9.9vw - 7.293px) 0;
+      }
+
+      .achv2 {
+        width: calc(11vw + 286.564px);
+      }
+    }
+
+    .achv_wrap2 {
+      display: flex;
+      flex-wrap: wrap;
+
+      .achv3 {
+        width: calc(8vw + 298.166px);
+        margin: 0 calc(9.9vw - 7.293px) calc(9.9vw - 7.293px) 0;
+      }
+
+      .achv4 {
+        margin-top: (2.2vw + 23.713px);
+        width: calc(8vw + 298.166px);
+      }
+    }
+
+    .achv_title {
+      font-family: "TT Hoves", sans-serif;
+      font-size: calc(1vw + 14.271px);
+      font-weight: 600;
+      line-height: 140%;
+      margin-bottom: calc(0.5vw + 10.058px);
+    }
+
+    .achv_p {
+      font-family: "TT Hoves", sans-serif;
+      font-size: calc(1vw + 14.271px);
+      font-weight: 400;
+      line-height: 140%;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .achievements {
+    .points {
+      .achv_wrap2 {
+        .achv3 {
+          margin-top: calc(2.2vw + 23.713px);
+        }
+      }
+    }
+  }
+}
+
+/* Achievements end */
